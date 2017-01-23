@@ -1,0 +1,24 @@
+{
+  "name": "QPair",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.8.4"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "superagent": "^3.3.1",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "md5": "*",
+    "mysql": "^2.12.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "app": "node Server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
